@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>I'm Hungry</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--<link rel="stylesheet" href="../static/css/main.css" />-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	</head>
+	<body>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+                        <h1>I'm Hungry</h1>
+                        <p>(Hi Hunrgy, I'm Dan)<p>
+                        <p>We help you find local, top-quality restaurants</p>
+                    </header>
+                    <form action="#" method="post">
+						<div class="field half first">
+							<label for="Food"></label>
+							<input name="Food" id="Food" type="text" placeholder="Food">
+						</div>
+						<div class="field half">
+							<label for="Location"></label>
+							<input name="Location" id="Location" type="text" placeholder="City, State or Zipcode">
+                        </div>
+						<ul class="actions">
+                            <li><input value="Find Food" class="button scrolly" type="submit" action="#three"></li>
+						</ul>
+					</form>
+				</div>
+            </section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+                    <h4>Let's Eat!</h4>
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Restaurant</th>
+                                    <th>Price</th>
+                                    <th>Rating (No. Ratings)</th>
+                                    <th>Description</th>
+                                    <th>Address</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {%for i in range(0, result|length)%} 
+                                <tr>
+                                    <td>{{result[i]['name']}}</td>
+                                    <td>{{result[i]['price']}}</td>
+                                    <td>{{result[i]['rating']}} ({{result[i]['num_rating']}})</td>
+                                    <td>{{result[i]['category']}}</td>
+                                    <td>{{result[i]['address']}}</td>
+                                </tr>
+                                {%endfor%} 
+                            </tbody>
+                        </table>
+                    </div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+        <footer id="footer">
+            <div class="copyright">
+                Created by <u><a href="https://www.linkedin.com/in/dan-blevins/" target="_blank">Dan Blevins</a></u>
+                &copy; 2020.
+                <br>Design <a href="https://templated.co">TEMPLATED</a>.
+            </div>
+        </footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
