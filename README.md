@@ -1,4 +1,4 @@
-# My Python Projects
+# Dan's Python Projects
 
 ## **What** is this?
 This is a collection of **beginner Python projects**. The purpose of this exercise is to show how versatile Python can be, especially for beginners, to create vastly different projects without spending too much time. ⏰
