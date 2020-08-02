@@ -1,0 +1,4 @@
+numpy==1.17.3
+pandas==0.25.3
+PyMySQL==0.9.3
+cx_Oracle==8.0.0

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Flask App</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../static/css/template.css" />
+    </head>
+
+    <body>
+        <header>
+        <div class="container">
+            <h1 class="logo">Flask App. This text is inside template.html</h1>
+            <strong><nav>
+            <ul class="menu">
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+            </ul>
+            </nav></strong>
+        </div>
+        </header>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>

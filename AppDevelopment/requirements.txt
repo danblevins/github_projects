@@ -1,0 +1,6 @@
+requests==2.22.0
+yelpapi==2.4.0
+numpy==1.17.3
+Flask==1.1.1
+pandas==0.25.3
+beautifulsoup4==4.9.1
