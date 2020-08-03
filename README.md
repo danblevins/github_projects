@@ -3,7 +3,6 @@
 ## **What** is this?
 This is a collection of **programming projects**, including:
 1. <kbd>[Webscraping](https://github.com/danblevins/github_projects/tree/master/WebScraping)</kbd>
-    - SCHEV Scrape: Scrape higher education data for public universities in Virginia
 2. <kbd>[SQL/ NoSQL](https://github.com/danblevins/github_projects/tree/master/SQL_NoSQL)</kbd>
 3. <kbd>[Visualization](https://github.com/danblevins/github_projects/tree/master/Visualization)</kbd>
 4. <kbd>[ML/ NLP](https://github.com/danblevins/github_projects/tree/master/ML_NLP)</kbd>
