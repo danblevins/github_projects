@@ -1,8 +1,8 @@
 # Web Scraping 🕸
 ### - SCHEV Scrape
 ### - The Office Scrape
-## SCHEV Scrape
 
+## SCHEV Scrape
 Scraping the [SCHEV](https://research.schev.edu/) website for higher education data for Economics programs in Virginia's public universities.
 
 ### Inspiration
@@ -22,9 +22,8 @@ This is a snippet of much larger propietary code that's used by the [JMU Economi
     $ python
     
    
-#### SCHEV Scrape
-
-Scraping the [SCHEV](https://research.schev.edu/) website for higher education data for Economics programs in Virginia's public universities.
+#### The Office Scrape
+Scraping all of the lines in Seasons 1 through 7 in [The Office](https://www.officequotes.net/).
 
 ## Inspiration
 This is a snippet of much larger propietary code that's used by the [JMU Economics Advisory Board](https://www.jmu.edu/cob/economics/about/executive-advisory-board.shtml) and guide data-driven discussions for the JMU Economics Department
