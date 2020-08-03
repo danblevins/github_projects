@@ -1,12 +1,12 @@
 # Web Scraping 🕸
-#### SCHEV Scrape
+## SCHEV Scrape
 
 Scraping the [SCHEV](https://research.schev.edu/) website for higher education data for Economics programs in Virginia's public universities.
 
-## Inspiration
+### Inspiration
 This is a snippet of much larger propietary code that's used by the [JMU Economics Advisory Board](https://www.jmu.edu/cob/economics/about/executive-advisory-board.shtml) and guide data-driven discussions for the JMU Economics Department
 
-## Installation
+### Installation
 1. Install Python 3.7.x if necessary (instuctions [here](https://realpython.com/installing-python))
 
     `$ python --version  # check version number if you're not sure`
