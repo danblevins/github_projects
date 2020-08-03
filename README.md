@@ -9,10 +9,10 @@ This is a collection of **Python projects**, including:
 5. <kbd>[App Development](https://github.com/danblevins/github_projects/tree/master/AppDevelopment)</kbd>
 
 ## **How** does it work?
-Each project folder includes the code itself, requirements, and additional resources. I like to work on these projects whenever I have free time. ⏰
+Each project folder includes its code, requirements, and additional resources. I like to work on these projects whenever I have free time. ⏰
 
 ## **Why** does this exist?
-Ever since I started to code, one piece of advice I often heard (and now give) is to *create* as much as possible -- through independent projects, hackathons, etc.
+Ever since I started to code, one piece of advice I often heard (and now give) is to *create* as much as possible -- through independent projects, hackathons, etc. 👨🏼‍💻 
 
 ## **Who** created this?
-That would be me -- Dan Blevins! I'm born and raised in northern Virginia, love reading, running, and watching The Office.
+That would be me 👋🏼 Dan Blevins! I'm born and raised in northern Virginia, love reading, running, and watching The Office.
