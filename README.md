@@ -16,4 +16,4 @@ Each project folder includes its code, requirements, and additional resources. I
 Ever since I started to code, one piece of advice I often heard (and now give) is to *create* as much as possible through independent projects, hackathons, freelance, etc. This is a place for me to do exactly that 👨🏼‍💻 
 
 ## **Who** created this?
-That would be me 👋🏼 Dan Blevins! I'm born and raised in northern Virginia, love reading, running, and watching The Office. Connect with me on [LinkedIn](https://linkedin.com/in/dan-blevins)
+That would be me 👋🏼 Dan Blevins! I'm born and raised in [northern Virginia](https://en.wikipedia.org/wiki/Northern_Virginia), love reading, running, and watching [The Office](https://en.wikipedia.org/wiki/The_Office_(American_TV_series)). I'm always looking to grow my network so feel free to connect with me on [LinkedIn](https://linkedin.com/in/dan-blevins)
