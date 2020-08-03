@@ -1,4 +1,4 @@
-# Web Scraping 🕸
+# Visualization 📊
 ### Projects: Viz.py, Streamlit.py
 
 ## Viz.py
