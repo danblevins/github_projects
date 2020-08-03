@@ -1,6 +1,5 @@
 # Web Scraping 🕸
-### - SCHEV Scrape
-### - The Office Scrape
+### Projects: SCHEV Scrape, The Office Scrape
 
 ## SCHEV Scrape
 Scraping the [SCHEV](https://research.schev.edu/) website for higher education data for Economics programs in Virginia's public universities.
