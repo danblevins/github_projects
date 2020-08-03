@@ -39,15 +39,11 @@ I love The Office and have been a fan since it aired on NBC every Thursday night
 #### To run the web scrapper:
     $ python 
 
-### Thanks
+## Thanks
 * [SCHEV](https://www.virginia.gov/agencies/state-council-of-higher-education-for-virginia/)
 * [The Office](https://www.officequotes.net/)
 
-### Learn More
+## Learn More
 
-* [PyGame Primer](https://realpython.com/pygame-a-primer/) - A quick tutorial on PyGame that you can follow along with.
-* [PyGame Tutorial](https://www.youtube.com/watch?v=FfWpgLFMI7w) - A great (2 hour) PyGame tutorial by FreeCodeCamp.
-* [Python and PyGame Book](http://inventwithpython.com/pygame/) - An even more comprehensive guide to game development using PyGame.
-
-### License
+## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/harshibar/5-python-projects/blob/master/LICENSE) file for details.
