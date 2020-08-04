@@ -5,12 +5,12 @@
 Scraping the [SCHEV](https://research.schev.edu/) website for higher education data for Economics programs in Virginia's public universities.
 
 ### Inspiration
-This is a snippet of much larger propietary code that's used by the [JMU Economics Advisory Board](https://www.jmu.edu/cob/economics/about/executive-advisory-board.shtml) and guide data-driven discussions for the JMU Economics Department
+This is a snippet of much larger propietary code that's used by the [JMU Economics Advisory Board](https://www.jmu.edu/cob/economics/about/executive-advisory-board.shtml). The complete analysis guides data-driven discussions for the JMU Economics Department and Board.
 
-### Installation
-1. Install Python 3.7.x if necessary (instuctions [here](https://realpython.com/installing-python))
+### Installation & Usage
+1. I'm using Python 3.6.8. Copy and paste the below code in your terminal to see what version you have. If you don't have Python 3 installed, you can install it [here](https://realpython.com/installing-python)
 
-    `$ python --version  # check version number if you're not sure`
+    `$ python3 --version  # check version number if you're not sure`
 
 2. Install PyGame
 
