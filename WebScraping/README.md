@@ -41,7 +41,7 @@ I love The Office and have been a fan since it aired on NBC every Thursday night
 
 ## Learn More
 * [Requests](https://requests.readthedocs.io/en/master/)
-* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Tutorial](https://www.youtube.com/watch?v=ng2o98k983k)
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [BeautifulSoup Tutorial](https://www.youtube.com/watch?v=ng2o98k983k)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md]() file for details.
