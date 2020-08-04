@@ -9,7 +9,7 @@ This is a collection of **programming projects**, including:
 5. <kbd>[Web Development](https://github.com/danblevins/github_projects/tree/master/AppDevelopment)</kbd>
 
 ## **How** does it work?
-Each project folder includes its code, requirements, and additional resources. I like to work on these projects whenever I have free time. ⏰
+Each project folder includes its code, requirements.txt, and additional resources. I like to work on these projects whenever I have free time. ⏰
 
 ## **Why** does this exist?
 Ever since I started to code, one piece of advice I often heard (and now give) is to *create* as much as possible through independent projects, hackathons, freelance, etc. This is a place for me to do exactly that 👨🏼‍💻 
