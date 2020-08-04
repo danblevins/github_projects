@@ -2,29 +2,23 @@
 ### Projects: ML.py
 
 ## ML.py
-Scraping the [SCHEV](https://research.schev.edu/) website for higher education data for Economics programs in Virginia's public universities.
+This program helps you go from a clean dataset to typical machine learning algorithms quickly. This allows more time for data scientists to work on tuning their algorithms.
 
 ### Inspiration
-This is a snippet of much larger propietary code that's used by the [JMU Economics Advisory Board](https://www.jmu.edu/cob/economics/about/executive-advisory-board.shtml) and guide data-driven discussions for the JMU Economics Department
+With the increase in popularity for data science projects, I wanted to create a program that helped go from clean dataset to machine learning output faster.
 
-### Installation
-1. Install Python 3.7.x if necessary (instuctions [here](https://realpython.com/installing-python))
+### Installation & Usage
+1. I'm using Python 3.6.8. Copy and paste the below code in your terminal to see what version you have. If you don't have Python 3 installed, you can learn how to install it [here](https://realpython.com/installing-python).
 
-    `$ python --version  # check version number if you're not sure`
+    `$ python3 --version  # check version number if you're not sure`
 
-2. Install PyGame
+2. Run the web scrapper
 
-    `$ python3 -m pip install -U pygame --user`
-
-### Usage
-#### To run the web scrapper:
-    $ python
-   
-## Thanks
-* [SCHEV](https://www.virginia.gov/agencies/state-council-of-higher-education-for-virginia/)
-* [The Office](https://www.officequotes.net/)
+    `$ python3 ml.py
 
 ## Learn More
+* [A Tour of Machine Learning Algorithms](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+* [SciKit Learn](https://scikit-learn.org/stable/)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/harshibar/5-python-projects/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md]() file for details.
