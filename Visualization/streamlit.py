@@ -28,7 +28,7 @@ def load_data(path):
     data['InvoiceYearMonth'] = pd.to_datetime(data['InvoiceYearMonth'], format='%Y%m')
     data['Revenue'] = data['UnitPrice'] * data['Quantity']
     return data
-data = load_data('./data/OnlineRetail.csv')
+data = load_data('../data/OnlineRetail.csv')
 
 #Create Title and sidebar
 st.title('Marketing KPIs for European Consumers')

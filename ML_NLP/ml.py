@@ -124,3 +124,5 @@ def run_ml(df=None,target=None,type=None,ts=0.2,rs=1,hyper=False):
 
     else:
         print("In the 'run_ml' function please have type=c or type=r.")
+
+run_ml(wine,'target','c')

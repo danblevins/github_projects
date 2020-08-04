@@ -48,6 +48,8 @@ def kde(data=[]):
         sns.kdeplot(data=i, shade=True)
     plt.show()
 
+kde([econ['fall_count'], sub['fall_count']])
+
 def line(data=None,x=None,y=None,hue=None):
     plt.clf()
     plt.close()
@@ -60,6 +62,8 @@ def line(data=None,x=None,y=None,hue=None):
     plt.ylabel("Count")
     plt.legend(frameon=False)
     plt.show()
+
+line(data,'year','fall_count','major')
     
 def bar(data=None,x=None,y=None,hue=None,ci=None):
     plt.clf()
@@ -71,3 +75,5 @@ def bar(data=None,x=None,y=None,hue=None,ci=None):
     plt.ylabel("Count")
     plt.legend(frameon=False)
     plt.show()
+
+bar(sub,'major','fall_count','year')
