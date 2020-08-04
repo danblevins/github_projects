@@ -18,10 +18,10 @@ At my [first company](https://www.boozallen.com/), one of my projects involved c
 
    
 ## Streamlit.py
-Scraping all of the lines in Seasons 1 through 7 in [The Office](https://www.officequotes.net/).
+Creates three interactive charts to view your marketing KPIs for your European customers.
 
 ### Inspiration
-I love The Office and have been a fan since it aired on NBC every Thursday night way back when. It only made sense that I eventually got around to pulling in every line ever said in my favorite TV show.
+[Streamlit](https://www.streamlit.io/) looked like a fast way to "build data apps" so I wanted to try it out and learn something new. I like how there's so much you can visualize using pure programming!
 
 ### Installation & Usage
 1. I'm using Python 3.6.8. Copy and paste the below code in your terminal to see what version you have. If you don't have Python 3 installed, you can learn how to install it [here](https://realpython.com/installing-python).
