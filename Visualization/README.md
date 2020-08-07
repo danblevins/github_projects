@@ -5,7 +5,7 @@
 A snippet of code to quickly create static visualizations using [Seaborn](https://seaborn.pydata.org/index.html).
 
 ### Inspiration
-At my [first company](https://www.boozallen.com/), one of my projects involved constantly creating static visualizations for slide deck presentations. Seeing that there was an opportunity to create visualizations automatically, I created a small program similar to this code. This is a short piece of that full code.
+At my first company, one of my projects involved constantly creating static visualizations for slide deck presentations. Seeing that there was an opportunity to create visualizations automatically, I created a small program similar to this code. This is a short piece of that full code.
 
 ### Installation & Usage
 1. I'm using Python 3.6.8. Copy and paste the below code in your terminal to see what version you have. If you don't have Python 3 installed, you can learn how to install it [here](https://realpython.com/installing-python).
