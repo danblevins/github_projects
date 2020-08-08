@@ -1,0 +1,31 @@
+<!-- Landing Page for The Office Quotes -->
+{% extends "bootstrap/base.html" %}
+{% block content %}
+<html lang="en">
+    <head>
+        <title>The Office</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+    </head>
+    <body>
+        <header class="container-fluid header">
+            <div class="overlay"></div>
+            <!-- Text -->
+                <div class="description">
+                    <h1>The Office Quotes</h1>
+                    <p>This app generates The Office quotes using Twilio, Flask, and Heroku.</p>
+                    <p>Send a text message like "Dwight" or "Michael" to +1(206)589-5333.*</p>
+                    <!-- Button -->
+                    <a target="_blank" class="btn btn-default btn-search" href="http://linkedin.com/in/dan-blevins" role="button">Made by Dan Blevins</a>
+                    <h2>*Due to Twilio's updated security features, only Dan can text the number</h2>
+                </div>
+        </header>
+    </body>
+</html>
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+    <script src="../static/index.js"></script>
+{% endblock %}
