@@ -13,5 +13,5 @@ Run the web scrapper
 
     `$ python3 schev_scrape.py`
 
-## Thanks
+### Thanks
 * [SCHEV](https://www.virginia.gov/agencies/state-council-of-higher-education-for-virginia/)

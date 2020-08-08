@@ -1,13 +1,7 @@
 # Web Scraping 🕸
-### Projects: SCHEV Scrape, The Office Scrape
-
-## SCHEV Scrape
-Scraping the [SCHEV](https://research.schev.edu/) website for higher education data for Economics programs in Virginia's public universities.
-
-:warning: **The [SCHEV website](https://sites.google.com/view/schev-tempsite/home) is currently getting a complete overhaul**, so the code might not be up-to-date until the website is live again.
-
-## The Office Scrape
-Scraping all of the lines in Seasons 1 through 7 in [The Office](https://www.officequotes.net/).
+## Projects: 
+* [SCHEV Scrape](https://github.com/danblevins/github_projects/tree/master/WebScraping/SCHEV)
+* [The Office Scrape](https://github.com/danblevins/github_projects/tree/master/WebScraping/TheOffice)
 
 ## Learn More
 * [Requests](https://requests.readthedocs.io/en/master/)

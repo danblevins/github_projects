@@ -11,5 +11,5 @@ Run the web scrapper
 
     `$ python3 theoffice_scrape.py`
 
-## Thanks
+### Thanks
 * [The Office](https://www.officequotes.net/)
