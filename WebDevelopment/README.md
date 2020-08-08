@@ -4,8 +4,8 @@
 * I'm Hungry
 * JMUPlus
 * TheOffice
-* Flask_Build
-* Heroku_Build
+* Flask_Build: Flask starter code
+* Heroku_Build: Heroku starter code
 
 ## Learn More
 

@@ -1,6 +1,6 @@
-# Web Development - The Office SMS 💻
+# Web Scraping - The Office Scrape 🕸
 
-## The Office SMS
+## The Office Scrape
 Scraping all of the lines in Seasons 1 through 7 in [The Office](https://www.officequotes.net/).
 
 ### Inspiration
