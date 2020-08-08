@@ -16,6 +16,8 @@ For these projects, I'm using Python 3.6.8. Copy and paste the below code in you
 
     `$ python3 --version  # check version number if you're not sure`
 
+Check the requirements.txt file for more information on libraries and installations.
+
 ## **Why** does this exist?
 Ever since I started to code, one piece of advice I often heard (and now give) is to *create* as much as possible through independent projects, hackathons, freelance, etc. This is a place for me to do exactly that 👨🏼‍💻 
 
