@@ -11,6 +11,11 @@ This is a collection of **programming projects**, including:
 ## **How** does it work?
 Each project folder includes its code, requirements.txt, and additional resources. I like to work on these projects whenever I have free time. ⏰
 
+## Installation
+For these projects, I'm using Python 3.6.8. Copy and paste the below code in your terminal to see what version you have. If you don't have Python 3 installed, you can learn how to install it [here](https://realpython.com/installing-python).
+
+    `$ python3 --version  # check version number if you're not sure`
+
 ## **Why** does this exist?
 Ever since I started to code, one piece of advice I often heard (and now give) is to *create* as much as possible through independent projects, hackathons, freelance, etc. This is a place for me to do exactly that 👨🏼‍💻 
 
