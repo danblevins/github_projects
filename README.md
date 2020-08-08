@@ -16,6 +16,8 @@ For these projects, I'm using Python 3.6.8. Copy and paste the below code in you
 
     `$ python3 --version  # check version number if you're not sure`
 
+The data folder contains data for some of the project examples.
+
 Check the requirements.txt file for more information on libraries and installations.
 
 ## **Why** does this exist?
