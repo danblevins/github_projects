@@ -14,45 +14,54 @@ app=Flask(__name__)
 def index():
     try:
         result=[]
-        food = request.form.get("Food", False)
-        location = request.form.get("Location", False)
-        store = key.search_query(term=food, location=location, radius=40000, limit=10)
-        for i in range(len(store['businesses'])):
-            temp_dict={}
-            temp_dict['name'] = store['businesses'][i]['name']
-            try:
-                temp_dict['price'] = store['businesses'][i]['price']
-            except:
-                temp_dict['price'] = 'Unavailable'
-                continue
-            try: 
-                temp_dict['rating'] = store['businesses'][i]['rating']
-            except:
-                temp_dict['rating'] = 'Unavailable'
-                continue
-            try:
-                temp_dict['num_rating'] = store['businesses'][i]['review_count']
-            except:
-                temp_dict['num_rating'] = 'Unavailable'
-                continue
-            try:
-                temp_dict['address'] = ', '.join(store['businesses'][i]['location']['display_address'])
-            except:
-                temp_dict['address'] = 'Unavailable'
-                continue
+        food = request.form.get("Food", 'Food')
+        location = request.form.get("Location", 'City, State or Zipcode')
 
-            temp_list=[]
-            for j in range(len(store['businesses'][i]['categories'])):
+        if food in ['Food',''] and location in ['City, State or Zipcode','']:
+            result=''
+            message=''
+        else:
+            store = key.search_query(term=food, location=location, radius=40000, limit=10)
+            for i in range(len(store['businesses'])):
+                temp_dict={}
+                temp_dict['name'] = store['businesses'][i]['name']
                 try:
-                    temp_list.append(store['businesses'][i]['categories'][j]['title'])
-                    temp_dict['category'] = ' / '.join(temp_list)
+                    temp_dict['price'] = store['businesses'][i]['price']
                 except:
-                    temp_dict['category'] = 'Unavailable'
+                    temp_dict['price'] = 'Unavailable'
                     continue
-            result.append(temp_dict)
+                try: 
+                    temp_dict['rating'] = store['businesses'][i]['rating']
+                except:
+                    temp_dict['rating'] = 'Unavailable'
+                    continue
+                try:
+                    temp_dict['num_rating'] = store['businesses'][i]['review_count']
+                except:
+                    temp_dict['num_rating'] = 'Unavailable'
+                    continue
+                try:
+                    temp_dict['address'] = ', '.join(store['businesses'][i]['location']['display_address'])
+                except:
+                    temp_dict['address'] = 'Unavailable'
+                    continue
+
+                temp_list=[]
+                for j in range(len(store['businesses'][i]['categories'])):
+                    try:
+                        temp_list.append(store['businesses'][i]['categories'][j]['title'])
+                        temp_dict['category'] = ' / '.join(temp_list)
+                    except:
+                        temp_dict['category'] = 'Unavailable'
+                        continue
+                result.append(temp_dict)
+
+            message = 'View your results below'
+
     except:
         pass
-    return render_template("index.html", result=result)
+
+    return render_template("index.html", result=result, food=food, location=location, message=message)
 
 if __name__ == '__main__':
     app.run(debug=False)

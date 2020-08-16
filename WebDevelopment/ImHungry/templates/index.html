@@ -13,32 +13,39 @@
 			<section id="banner">
 				<div class="inner">
 					<header>
-                        <h1>I'm Hungry</h1>
-                        <p>(Hi Hunrgy, I'm Dan)<p>
+                        <a href=""><h1>I'm Hungry</h1></a>
+                        <p>(Hi Hungry, I'm Dan)<p>
                         <p>We help you find local, top-quality restaurants</p>
                     </header>
-                    <form action="#" method="post">
+                    <form action="#" method="post" autocomplete="off">
 						<div class="field half first">
 							<label for="Food"></label>
-							<input name="Food" id="Food" type="text" placeholder="Food">
+							<input name="Food" id="Food" type="text" onfocus="this.value=''" value="{{food}}">
 						</div>
 						<div class="field half">
 							<label for="Location"></label>
-							<input name="Location" id="Location" type="text" placeholder="City, State or Zipcode">
+							<input name="Location" id="Location" type="text" onfocus="this.value=''" value="{{location}}">
                         </div>
+                        <span></span>
 						<ul class="actions">
-                            <li><input value="Find Food" class="button scrolly" type="submit" action="#three"></li>
+                            <li><input value="Find Food" class="button" type="submit"></li>
 						</ul>
-					</form>
+                    </form>
+                    <p>{{message}}</p>
+                    <div class="arrow-container">
+                        <a href="#table-section">
+                            <div class="arrow"></div>
+                        </a>
+                    </div>
 				</div>
             </section>
 
-		<!-- Three -->
-			<section id="three" class="wrapper">
+		<!-- Table -->
+			<section id="table-section" class="wrapper">
 				<div class="inner">
-                    <h4>Let's Eat!</h4>
+                    <h4>Let's Eat!</h4><h5><a href=""><u>Reset</u></a></h5>
                     <div class="table-wrapper">
-                        <table>
+                        <table id="table">
                             <thead>
                                 <tr>
                                     <th>Restaurant</th>
@@ -62,7 +69,7 @@
                         </table>
                     </div>
 				</div>
-			</section>
+            </section>
 
 		<!-- Footer -->
         <footer id="footer">
@@ -74,9 +81,9 @@
         </footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <script type="text/javascript" src="static/js/jquery.min.js"></script>
+        <script type="text/javascript" src="static/js/skel.min.js"></script>
+        <script type="text/javascript" src="static/js/util.js"></script>
+        <script type="text/javascript" src="static/js/main.js"></script>
 	</body>
 </html>

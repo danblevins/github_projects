@@ -64,12 +64,10 @@
 	});
 
 })(jQuery);
-
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
-
-function load() {
-    if ($('#table tr').length > 0) {
-        window.location.hash="table";
+/*
+$('tr').each(function() {
+    if($(this).find('td').length >= 1) {
+        location.href = "#table-section";
     }
-    window.alert(5 + 6);
-};
+});
+*/
