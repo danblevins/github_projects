@@ -1,7 +1,8 @@
+Flask==1.1.2
 requests==2.22.0
-pandas==0.25.3
 numpy==1.17.3
+gql==2.0.0
+pandas==0.25.3
 yelpapi==2.4.0
-Flask==1.1.1
 beautifulsoup4==4.9.1
-gunicorn
+gunicorn==20.0.4
