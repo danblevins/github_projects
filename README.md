@@ -1,4 +1,4 @@
-# Dan's Projects
+# Projects by Dan Blevins
 
 ## **What** is this?
 This is a collection of **programming projects**, including:
