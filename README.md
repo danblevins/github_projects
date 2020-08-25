@@ -8,6 +8,10 @@ This is a collection of **programming projects**, including:
 4. <kbd>[ML/ NLP](https://github.com/danblevins/github_projects/tree/master/ML_NLP)</kbd>
 5. <kbd>[Web Development](https://github.com/danblevins/github_projects/tree/master/WebDevelopment)</kbd>
 
+## View my Live Projects:
+- [I'm Hungry](https://imhungry-danblevins.herokuapp.com/): Find local, top-quality restaurants by food group and destination.
+- [The Office SMS](https://theoffice-web.herokuapp.com/): Receive text message quotes from your favorite characters in The Office, on-demand!
+
 ## **How** does it work?
 Each project folder includes its code, requirements.txt, and additional resources. I like to work on these projects whenever I have free time. ⏰
 
