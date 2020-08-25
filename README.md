@@ -6,7 +6,7 @@ This is a collection of **programming projects**, including:
 2. <kbd>[SQL/ NoSQL](https://github.com/danblevins/github_projects/tree/master/SQL_NoSQL)</kbd>
 3. <kbd>[Visualization](https://github.com/danblevins/github_projects/tree/master/Visualization)</kbd>
 4. <kbd>[ML/ NLP](https://github.com/danblevins/github_projects/tree/master/ML_NLP)</kbd>
-5. <kbd>[Web Development](https://github.com/danblevins/github_projects/tree/master/AppDevelopment)</kbd>
+5. <kbd>[Web Development](https://github.com/danblevins/github_projects/tree/master/WebDevelopment)</kbd>
 
 ## **How** does it work?
 Each project folder includes its code, requirements.txt, and additional resources. I like to work on these projects whenever I have free time. ⏰
