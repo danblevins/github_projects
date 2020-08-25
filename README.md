@@ -10,9 +10,11 @@ This is a collection of **programming projects**, including:
 
 ## View my Live Projects:
 - [I'm Hungry](https://imhungry-danblevins.herokuapp.com/): Find local, top-quality restaurants by food group and destination.
+
 **Technologies Used:** Flask, Yelp GraphQL and API, Git, Heroku, CSS, HTML
     
 - [The Office SMS](https://theoffice-web.herokuapp.com/): Receive text message quotes from your favorite characters in The Office, on-demand!
+
 **Technologies Used:** Flask, Twilio, Bootstrap, ngrok, Git, Heroku, CSS, HTML
 
 ## **How** does it work?
