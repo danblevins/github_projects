@@ -16,6 +16,10 @@ This is a collection of **programming projects**, including:
 - [The Office SMS](https://theoffice-web.herokuapp.com/): Receive text message quotes from your favorite characters in The Office, on-demand!
 
     **Technologies Used:** Flask, Twilio, Bootstrap, ngrok, Git, Heroku, CSS, HTML
+    
+- [mlFast](https://mlfast-danblevins.herokuapp.com/): Receive text message quotes from your favorite characters in The Office, on-demand!
+
+    **Technologies Used:** Flask, SciKit-Learn, Bootstrap, Git, Heroku, CSS, HTML
 
 ## **How** does it work?
 Each project folder includes its code, requirements.txt, and additional resources. I like to work on these projects whenever I have free time. ⏰
