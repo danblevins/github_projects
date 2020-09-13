@@ -3,7 +3,8 @@
 ## Projects: 
 * I'm Hungry
 * JMUPlus
-* TheOffice
+* TheOfficeSMS
+* mlFast
 * Flask_Build: Flask starter code
 * Heroku_Build: Heroku starter code
 
