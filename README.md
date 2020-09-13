@@ -1,4 +1,4 @@
-# Dan's Projects
+# Projects by Dan Blevins
 
 ## **What** is this?
 This is a collection of **programming projects**, including:
@@ -6,7 +6,16 @@ This is a collection of **programming projects**, including:
 2. <kbd>[SQL/ NoSQL](https://github.com/danblevins/github_projects/tree/master/SQL_NoSQL)</kbd>
 3. <kbd>[Visualization](https://github.com/danblevins/github_projects/tree/master/Visualization)</kbd>
 4. <kbd>[ML/ NLP](https://github.com/danblevins/github_projects/tree/master/ML_NLP)</kbd>
-5. <kbd>[Web Development](https://github.com/danblevins/github_projects/tree/master/AppDevelopment)</kbd>
+5. <kbd>[Web Development](https://github.com/danblevins/github_projects/tree/master/WebDevelopment)</kbd>
+
+## View my Live Projects:
+- [I'm Hungry](https://imhungry-danblevins.herokuapp.com/): Find local, top-quality restaurants by food group and destination.
+
+    **Technologies Used:** Flask, Yelp GraphQL and API, Git, Heroku, CSS, HTML
+    
+- [The Office SMS](https://theoffice-web.herokuapp.com/): Receive text message quotes from your favorite characters in The Office, on-demand!
+
+    **Technologies Used:** Flask, Twilio, Bootstrap, ngrok, Git, Heroku, CSS, HTML
 
 ## **How** does it work?
 Each project folder includes its code, requirements.txt, and additional resources. I like to work on these projects whenever I have free time. ⏰
@@ -24,4 +33,4 @@ Check the requirements.txt file for more information on libraries and installati
 Ever since I started to code, one piece of advice I often heard (and now give) is to *create* as much as possible through independent projects, hackathons, freelance, etc. This is a place for me to do exactly that 👨🏼‍💻 
 
 ## **Who** created this?
-That would be me 👋🏼 Dan Blevins! I live in Seattle, WA, was born and raised in [northern Virginia](https://en.wikipedia.org/wiki/Northern_Virginia), love reading, running, and watching [The Office](https://en.wikipedia.org/wiki/The_Office_(American_TV_series)). I'm always looking to grow my network so feel free to connect with me on [LinkedIn](https://linkedin.com/in/dan-blevins)
+That would be me 👋🏼 [Dan Blevins](http://danblevins.surge.sh/)! I live in Seattle, WA, was born and raised in [northern Virginia](https://en.wikipedia.org/wiki/Northern_Virginia), love reading, running, and watching [The Office](https://en.wikipedia.org/wiki/The_Office_(American_TV_series)). I'm always looking to grow my network so feel free to connect with me on [LinkedIn](https://linkedin.com/in/dan-blevins)
