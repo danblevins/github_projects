@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    {% extends "template.html" %}
+    {% block content %}
+
+<main role="main">
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Regression Examples</h1>
+      <p class="lead text-muted">Using SciKit-Learn</p>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Boston</h2>
+        <p>The Boston dataset contains information collected by the U.S Census Service concerning housing in the area of Boston Mass. It was obtained from the StatLib archive (http://lib.stat.cmu.edu/datasets/boston), and has been used extensively throughout the literature to benchmark algorithms.</p>
+        <form method="post">
+            <p><input class="btn btn-secondary" type="submit" name="run" value="Run Boston &raquo;"></p>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <h2>Diabetes</h2>
+        <p>The Diabetes dataset patient records were obtained from two sources: an automatic electronic recording device and paper records. The automatic device had an internal clock to timestamp events, whereas the paper records only provided "logical time" slots (breakfast, lunch, dinner, bedtime).</p>
+        <form method="post">
+            <p><input class="btn btn-secondary" type="submit" name="run" value="Run Diabetes &raquo;"></p>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <h2>Your Data!</h2>
+        <p>Are you ready to transform your data into regression models?</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Run your Data &raquo;</a></p>
+      </div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Model</th>
+            <th scope="col">RR</th>
+            <th scope="col">MSE</th>
+          </tr>
+        </thead>
+        <tbody>
+        {%for i in range(0, result|length)%} 
+        <tr>
+            <td>{{result[i]['model']}}</td>
+            <td>{{result[i]['RR']}}</td>
+            <td>{{result[i]['MSE']}}</td>
+        </tr>
+        {%endfor%}
+        </tbody>
+      </table>
+    <hr>
+  </div>
+</main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+</html>
+{% endblock %}

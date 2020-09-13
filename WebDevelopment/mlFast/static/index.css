@@ -1,0 +1,184 @@
+/****************************************/
+/* Full Website */
+html, body {
+  font-family: 'Tahoma';/* Helvetica Bold, Tahoma, Segoe UI, Geneva, Verdana, sans-serif, Bookman, Georgia;*/
+  background-image: url("../img/office.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: #FF9900;
+  overflow: hidden;
+  }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ededed;
+}
+.button {
+  border-color: transparent;
+  background-color: transparent;
+}
+.button:hover {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+.text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color:#FF9900;
+  width: 90vw;
+  padding-top: 2vh;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+  color: #000000;
+  width: 90vw;
+  padding-bottom: 1vh;
+}
+.emp_container {
+  margin: 1;
+}
+.emp_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 50vh;
+}
+.emp {
+  display: flex;
+  flex-direction: column;
+  background-color: #ededed;
+  width: 30vw;
+}
+.emp:hover  {
+  background-color: #e0e0e0;
+  border-style: solid;
+  border-color: darkgrey;
+  border-width: 0.1px;
+}
+.profile_pic {
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+  height: 20vh;
+}
+.name, .position {
+  display: flex;
+  justify-content: flex-start;
+  color:#000000;
+  padding-left: 1vw;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  color: #ededed;
+  text-align: center;
+  font-size: 11px;
+}
+a {
+  color: white;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button{
+    font-size: 20px;
+  }
+  .title {
+    padding-top: 2vh;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h6 {
+    font-size: 19px;
+  }
+  .subtitle {
+    padding-bottom: 5vh;
+    width: 75vw;
+  }
+  .emp_list {
+    flex-direction: row;
+    align-content: center;
+    width: 80vw;
+  }
+  .emp, .profile_pic {
+    width: 30vw;
+    height: 20vh;
+  }
+}
+
+@media only screen 
+and (min-device-width : 1025px)  {
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .button {
+    border-color: transparent;
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  .title {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  .subtitle {
+    padding-bottom: 5vh;
+  }
+  .emp_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .emp_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .emp {
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+    width: 15vw;
+  }
+  .profile_pic {
+    width: 15vw;
+    height: 25vh;
+  }
+}

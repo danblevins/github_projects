@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    {% extends "template.html" %}
+    {% block content %}
+
+<main role="main">
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center">
+    <div class="container">
+      <h1>Classification Examples</h1>
+      <p class="lead text-muted">Using SciKit-Learn</p>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Iris</h2>
+        <p>The Iris Dataset contains four features (length and width of sepals and petals) of 50 samples of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). These measures were originally used to create a linear discriminant model to classify the species.</p>
+        <form method="post">
+            <p><input class="btn btn-secondary" type="submit" name="run" value="Run Iris &raquo;"></p>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <h2>Wine</h2>
+        <p>The wine dataset contains the results of a chemical analysis of wines grown in a specific area of Italy. Three types of wine are represented in the 178 samples, with the results of 13 chemical analyses recorded for each sample. The Type variable has been transformed into a categoric variable.</p>
+        <form method="post">
+            <p><input class="btn btn-secondary" type="submit" name="run" value="Run Wine &raquo;"></p>
+        </form>
+      </div>
+      <div class="col-md-4">
+        <h2>Your Data!</h2>
+        <p>Are you ready to transform your data into classification models?</p>
+        <p><a class="btn btn-secondary" href="#" role="button">Run your Data &raquo;</a></p>
+      </div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Model</th>
+            <th scope="col">Accuracy</th>
+            <th scope="col">Log Loss</th>
+          </tr>
+        </thead>
+        <tbody>
+        {%for i in range(0, result|length)%} 
+        <tr>
+            <td>{{result[i]['model']}}</td>
+            <td>{{result[i]['accuracy']}}</td>
+            <td>{{result[i]['log loss']}}</td>
+        </tr>
+        {%endfor%}
+        </tbody>
+      </table>
+    <hr>
+  </div>
+</main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+</html>
+{% endblock %}
