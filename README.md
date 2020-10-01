@@ -17,7 +17,7 @@ This is a collection of **programming projects**, including:
 
     **Technologies Used:** Flask, Twilio, Bootstrap, ngrok, Git, Heroku, CSS, HTML
     
-- [mlFast](https://mlfast-danblevins.herokuapp.com/): Receive text message quotes from your favorite characters in The Office, on-demand!
+- [mlFast](https://mlfast-danblevins.herokuapp.com/): Build foundational machine learning algorithms faster!
 
     **Technologies Used:** Flask, SciKit-Learn, Bootstrap, Git, Heroku, CSS, HTML
 
